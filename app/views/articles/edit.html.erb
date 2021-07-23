@@ -1,6 +1,8 @@
-<h1>Edit an Article</h1>
-<%= render 'form' %>
+    <h1 class="text-center mt-4">Edit an Article</h1>
+    <%= render 'form' %>
 
-<%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: "Are you sure?"} %> |
-<%= link_to 'Cancle And Return back to Article Lists', articles_path%> 
+    <div class="text-center mt-4 mb-4">
+        <%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: "Are you sure?"} %> |
+        <%= link_to 'Cancle And Return back to Article Lists', articles_path%> 
+    </div>
 
