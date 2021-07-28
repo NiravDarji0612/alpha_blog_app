@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     user = User.find_by(email: params[:session][:email].downcase)
     # Credentials Checking before Session
     if user && user.authenticate(params[:session][:password])
-      #adding user_id to the session object
+      # adding user_id to the session object
       session[:user_id] = user.id
       flash[:notice] = 'you are successfully logged in'
       redirect_to user
