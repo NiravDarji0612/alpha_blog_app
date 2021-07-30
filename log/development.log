@@ -15838,3 +15838,215 @@ Migrating to CreateCategory (20210729070056)
   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4041121399170907065)[0m
   [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" /* loading for inspect */ LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/categories" for ::1 at 2021-07-30 13:37:36 +0530
+  [1m[35m (41.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 205)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.2ms | Allocations: 657)
+  Rendered layouts/_messages.html.erb (Duration: 3.4ms | Allocations: 215)
+  Rendered layouts/_footer.html.erb (Duration: 1.8ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 295.7ms | Allocations: 10221)
+Completed 200 OK in 331ms (Views: 299.6ms | ActiveRecord: 0.0ms | Allocations: 12789)
+
+
+Started GET "/categories/new" for ::1 at 2021-07-30 13:37:52 +0530
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 176)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 48)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 35.5ms | Allocations: 4377)
+Completed 200 OK in 45ms (Views: 40.3ms | ActiveRecord: 0.0ms | Allocations: 4888)
+
+
+Started GET "/signup" for ::1 at 2021-07-30 13:40:31 +0530
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 9.0ms | Allocations: 210)
+  Rendered users/_form.html.erb (Duration: 58.9ms | Allocations: 3342)
+  Rendered users/new.html.erb within layouts/application (Duration: 90.2ms | Allocations: 3657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 162)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 48)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 129.1ms | Allocations: 7884)
+Completed 200 OK in 232ms (Views: 132.2ms | ActiveRecord: 40.7ms | Allocations: 14900)
+
+
+Started GET "/categories/new" for ::1 at 2021-07-30 13:44:33 +0530
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.9ms | Allocations: 203)
+  Rendered categories/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1243)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.8ms | Allocations: 593)
+  Rendered layouts/_messages.html.erb (Duration: 0.8ms | Allocations: 203)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 6786)
+Completed 200 OK in 95ms (Views: 28.5ms | ActiveRecord: 31.2ms | Allocations: 10562)
+
+
+Started GET "/categories/new" for ::1 at 2021-07-30 13:45:03 +0530
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 7.1ms | Allocations: 203)
+  Rendered categories/new.html.erb within layouts/application (Duration: 18.2ms | Allocations: 1012)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.3ms | Allocations: 593)
+  Rendered layouts/_messages.html.erb (Duration: 1.5ms | Allocations: 203)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 56.6ms | Allocations: 6538)
+Completed 200 OK in 77ms (Views: 67.7ms | ActiveRecord: 0.0ms | Allocations: 7645)
+
+
+Started GET "/categories/new" for ::1 at 2021-07-30 13:50:53 +0530
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.2ms | Allocations: 40)
+  Rendered categories/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 163)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 48)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4796)
+Completed 200 OK in 36ms (Views: 12.5ms | ActiveRecord: 11.6ms | Allocations: 10286)
+
+
+Started POST "/categories" for ::1 at 2021-07-30 13:51:01 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Lifestyle"}, "commit"=>"Create Category"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 661)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: require
+Did you mean?  category
+               controller
+               action
+               commit):
+  
+app/controllers/categories_controller.rb:27:in `category_params'
+app/controllers/categories_controller.rb:7:in `create'
+Started GET "/categories/new" for ::1 at 2021-07-30 13:53:45 +0530
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered categories/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 668)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 167)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 5069)
+Completed 200 OK in 33ms (Views: 15.3ms | ActiveRecord: 9.9ms | Allocations: 8589)
+
+
+Started GET "/categories/new" for ::1 at 2021-07-30 13:53:46 +0530
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.6ms | Allocations: 40)
+  Rendered categories/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 505)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 156)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 48)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 4761)
+Completed 200 OK in 55ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 5148)
+
+
+Started POST "/categories" for ::1 at 2021-07-30 13:53:50 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Lifestyle"}, "commit"=>"Create Category"}
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  [1m[36mCategory Exists? (127.3ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "Lifestyle"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  [1m[36mCategory Create (120.9ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Lifestyle"], ["created_at", "2021-07-30 08:23:50.153302"], ["updated_at", "2021-07-30 08:23:50.153302"]]
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (14.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+Redirected to http://localhost:3000/categories/1
+Completed 302 Found in 303ms (ActiveRecord: 266.9ms | Allocations: 4184)
+
+
+Started GET "/categories/1" for ::1 at 2021-07-30 13:53:50 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.5ms | Allocations: 176)
+  Rendered layouts/_messages.html.erb (Duration: 1.0ms | Allocations: 53)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 4432)
+Completed 200 OK in 43ms (Views: 39.3ms | ActiveRecord: 0.0ms | Allocations: 4940)
+
+
+Started GET "/categories/new" for ::1 at 2021-07-30 13:54:39 +0530
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.5ms | Allocations: 40)
+  Rendered categories/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 508)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.8ms | Allocations: 156)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 48)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | Allocations: 4764)
+Completed 200 OK in 53ms (Views: 50.5ms | ActiveRecord: 0.0ms | Allocations: 5152)
+
+
+Started POST "/categories" for ::1 at 2021-07-30 13:54:40 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>""}, "commit"=>"Create Category"}
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  [1m[36mCategory Exists? (3.0ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", ""], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 1.4ms | Allocations: 504)
+  Rendered categories/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1516)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 156)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 48)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 5701)
+Completed 200 OK in 50ms (Views: 19.6ms | ActiveRecord: 9.6ms | Allocations: 8951)
+
+
+Started POST "/categories" for ::1 at 2021-07-30 13:54:50 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Lifestyle"}, "commit"=>"Create Category"}
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  [1m[36mCategory Exists? (2.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = $1 LIMIT $2[0m  [["name", "Lifestyle"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/categories_controller.rb:8:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 1.7ms | Allocations: 483)
+  Rendered categories/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1477)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 156)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 48)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 5662)
+Completed 200 OK in 35ms (Views: 18.2ms | ActiveRecord: 7.0ms | Allocations: 8906)
+
+
